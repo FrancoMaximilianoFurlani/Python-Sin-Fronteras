@@ -1,0 +1,6 @@
+print('''
+    "Estoy"
+    ""aprendiendo""
+    """Python"""
+    '''
+)
