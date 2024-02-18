@@ -1,0 +1,43 @@
+body{
+    background-color:blueviolet;
+    border: 4px;
+    border-color: chartreuse;
+
+}
+
+a{
+    color: hotpink;
+    background-color: greenyellow;
+    border: 1px solid green;
+    text-decoration: underline;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 25px;
+    font-size:25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+a:link{
+    color: green;
+    text-decoration: none ;
+}
+
+a:visited{
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: violet; 
+    text-decoration: none;
+    border-color: greenyellow;
+}   
+
+a:active{
+    color: yellow;
+    text-decoration: underline;
+}

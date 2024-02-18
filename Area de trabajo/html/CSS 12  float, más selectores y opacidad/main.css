@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet;
+}
+
+img{
+    float:right; 
+    opacity: 0.9;;
+}   
+
+img:hover{
+    float:right; 
+    opacity: 1;
+}   
+
+p{
+    background-color: yellowgreen;
+    
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+div {
+    font-size: 25px;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+
+
+}

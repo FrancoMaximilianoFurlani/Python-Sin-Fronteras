@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+
+p{
+    max-width: 350px;
+    background-color: #f00;
+    color: azure;
+    margin: auto;
+    position: fixed; 
+    left: 1px ;   
+    top: 0;
+    
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
+/* sombras */
+.box{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    text-shadow: 4px 4px 4px rgba(255,255,255,1) ;
+}
+
+/* inset sirve para que la sombra sea interna */
+

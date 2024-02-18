@@ -1,0 +1,18 @@
+body{
+    background-color: blueviolet;
+}
+
+div{
+    height: 400px;
+    background-color: brown;
+    background-image: url('https://placekitten.com/200/300');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+
+}
+
+
+
+

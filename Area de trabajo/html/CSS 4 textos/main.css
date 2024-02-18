@@ -1,0 +1,40 @@
+p{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    font-weight:bold;
+    text-align: center;
+    transition-delay: 1000ms;
+    text-indent: 40px;
+    line-height: 1.7px;
+    word-spacing: 3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+body { 
+    background-color:crimson;
+}s
+
+a { color:white;
+letter-spacing: 3px;
+text-transform: capitalize;
+;
+
+}
+
+a:link{
+    color:pink
+
+}
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: black;
+    text-decoration: solid;
+}
+a:hover{
+    color: hotpink;
+}

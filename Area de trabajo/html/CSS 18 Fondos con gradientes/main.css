@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
+/* gradiantes */
+.fondo{
+    background-image: linear-gradient( -15deg, red, yellow);
+}
+/* 
+graduiante */
+
+

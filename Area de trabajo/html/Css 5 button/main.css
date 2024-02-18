@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(106, 63, 145);
+}
+
+a{
+    color: hotpink;
+    background-color: red;
+    border-color: solid coral;
+    padding: 10px;
+    margin: 15px;
+    margin-top:25;
+    right: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+}
+
+a:link{
+    color: pink !important;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: black !important;
+}
+
+a:hover{
+    color: gray;
+    text-decoration:none;
+    background-color: brown;
+
+}

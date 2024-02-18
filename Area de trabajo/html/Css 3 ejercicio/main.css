@@ -1,0 +1,51 @@
+body {
+    background-color: #F2E74B;
+
+}
+
+.caja{
+    background-color:#F294B6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2762E;
+    border-radius: 2px;
+    border-top: solid 0px #F2059F;
+    color: #F2059F;
+
+
+}
+
+.footer{
+    padding: 10px;
+    border-top: solid 1px #F2059F;
+    color: #F2059F;
+
+}
+.contenido{
+    padding: 10px;
+
+}
+
+.baceptar{
+    background-color: #F2762E;
+    padding: 5px;
+    border: 0px;
+    color: #F2D64B;
+
+}
+.bcancelar{
+    
+    background-color: #F2D64B;
+    padding: 5px;
+    border: 0px;
+    color: #F2762E;
+
+}
+.cabecera{
+    
+    padding: 10px;
+    border-top: solid 1px #F2059F;
+    color: #F2059F;
+    bottom: 0vh;
+
+}
