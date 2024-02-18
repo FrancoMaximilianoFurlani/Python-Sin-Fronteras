@@ -1,8 +1,0 @@
-Método __init__(self): Inicializa una pila mejorada, llamando al constructor de la clase pila 
-y agregando un atributo adicional __sumatoria que se utiliza para mantener la suma de todos 
-los elementos en la pila.
-Método empujar(self, valor): Extiende el método empujar de la clase base (pila) para sumar 
-el nuevo valor a __sumatoria antes de agregarlo a la pila.
-Método obtener(self): Extiende el método obtener de la clase base (pila) para restar el valor 
-obtenido de __sumatoria después de retirarlo de la pila.
-Método obtener_sumatoria(self): Retorna la suma acumulada de todos los elementos en la pila.

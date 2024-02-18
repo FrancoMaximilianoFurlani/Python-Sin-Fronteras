@@ -1,6 +1,0 @@
-print('''
-    "Estoy"
-    ""aprendiendo""
-    """Python"""
-    '''
-)
