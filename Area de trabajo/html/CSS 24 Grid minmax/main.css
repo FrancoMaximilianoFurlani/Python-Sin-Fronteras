@@ -1,0 +1,20 @@
+body{
+    background-color: blueviolet;
+}
+
+.grid{
+    display: inline grid;
+    grid-template-rows: minmax(100px,auto) minmax(100px,auto) minmax(100px,auto);
+    grid-template-columns: minmax(auto, 50%) minmax(auto, 50%) minmax(auto, 50%);
+    
+}
+.element{
+
+    background-color: white;
+    margin: 19px;
+    padding: 19px;
+    text-align: center;
+    box-shadow:  2px 2px 15px 10px rgb(121, 5, 100) inset;
+
+}
+

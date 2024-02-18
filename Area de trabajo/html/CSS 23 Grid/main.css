@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+}
+
+.grid{
+    display: inline grid;
+}
+.element{
+
+    background-color: white;
+    margin: 19px;
+    padding: 19px;
+    text-align: center;
+    box-shadow:  2px 2px 15px 10px rgb(121, 5, 100) inset;
+
+}
+
