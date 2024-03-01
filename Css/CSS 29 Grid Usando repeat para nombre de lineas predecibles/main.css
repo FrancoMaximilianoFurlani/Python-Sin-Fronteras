@@ -1,0 +1,30 @@
+body {
+  background-color: blueviolet;
+}
+
+.grid {
+  display: grid;
+/* asignando alias a las filas de las grilla */
+  grid-template-rows: repeat(2, [row-inicio] 50px [row-end]);
+  grid-template-columns: repeat(3, [col-inicio] 1fr [col-end]);
+  grid-gap: 12px;
+}
+
+.element {
+  background-color: white;
+}
+.header{
+
+    /* 
+    formato largo
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    formato corto
+    */
+
+    grid-column: col-inicio / col-end;
+    grid-row: row-inicio / row-end;
+}

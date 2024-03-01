@@ -1,0 +1,32 @@
+body {
+  background-color: blueviolet;
+}
+
+.grid {
+  display: grid;
+/* asignando alias a las filas de las grilla */
+  grid-template-rows: [row1-start] 20% [row1-end row2-start] 20% [row2-end row3-start] 20% [row3-end row4-start] 20% [row4-end row5-start] 20% [row5-end];
+  grid-template-columns: [col-1] 25% [col-2] 25% [col-3] 25% [col-4] 25% [col-5];
+  grid-gap: 15px;
+}
+
+.element {
+  background-color: white;
+}
+
+.header{
+
+
+    /* 
+    formato largo
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    formato corto
+    */
+
+    grid-column: col-1 / col-5;
+    grid-row: row1-start / row3-end;
+}

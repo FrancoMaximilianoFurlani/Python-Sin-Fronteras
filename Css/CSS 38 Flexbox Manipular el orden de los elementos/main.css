@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap; /* row column column-reverse row-reverse */
+
+}
+
+.primero{
+    order: 5;
+}
+
+.segundo{
+    order: -1;
+}
+
+.tercero{
+    order: 6;
+}

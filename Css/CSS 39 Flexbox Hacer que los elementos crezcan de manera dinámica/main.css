@@ -1,0 +1,22 @@
+body {
+  background-color: blueviolet;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap; /* row column column-reverse row-reverse */
+}
+
+.primero {
+  flex-grow: 1;
+  flex-basis: 120px;
+}
+
+.segundo {
+  flex: 1 120px;
+}
+
+.tercero {
+  flex-grow: 1;
+  align-self: end;
+}

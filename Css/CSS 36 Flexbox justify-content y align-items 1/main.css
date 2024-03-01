@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    
+    flex-direction: row; /*row|row-reverse|column|column-reverse*/
+    flex-wrap: wrap; /*wrap|wrap-reverse|nowrap*/
+    justify-content: space-between ; /*flex-start|flex-end|center|space-between|space-around|space-evenly*/
+    /* flex-flow: row wrap; row|row-reverse|column|column-reverse|row wrap|row-reverse wrap|column wrap|column-reverse wrap */
+    align-items: flex-end; /*stretch|flex-start|flex-end|center|baseline*/
+}
+
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
